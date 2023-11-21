@@ -1,0 +1,234 @@
+\documentclass{beamer}
+
+% This file is a solution template for:
+
+% - Giving a talk on some subject.
+% - The talk is between 15min and 45min long.
+% - Style is ornate.
+
+
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+
+
+\mode<presentation>
+{
+  \usetheme[height=12mm]{Rochester}
+  % or ...%
+
+  \setbeamercovered{transparent}
+%  % or whatever (possibly just delete it)
+}
+
+
+\usepackage[brazil]{babel}
+% or whatever
+
+% or whatever
+%\usepackage{graphics}
+\usepackage{times}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+
+\newcommand{\nektar}{\ensuremath{\mathcal{N}\varepsilon \kappa \tau \alpha r}}
+\newcommand{\ordem}[1]{ \ensuremath{\mathcal{O}[#1]}}
+\newcommand{\pr}[1]{\ensuremath{ \mathbf{#1}}}    % \pr vem de preto
+\newcommand{\etal}{\emph{et al.}}
+\newcommand{\jac}[4]{ \ensuremath{ P_{#2}^{#3,#4}(#1) }}
+\newcommand{\der}[2]{\ensuremath{ \frac{\partial #1}{\partial #2}}}
+\newcommand{\convect}[2]{\ensuremath{ #1 \cdot \nabla #2}}
+\newcommand{\R}{\ensuremath{ Re }}
+\newcommand{\St}{\ensuremath{ St }}
+\newcommand{\cpb}{\ensuremath{ C_{pb}}}
+\newcommand{\transf}[3]{\ensuremath{ \int_{-\infty}^\infty #3\: e^{i #2 #1}\: d #2}}
+\newcommand\clrms{\ensuremath{\sqrt{\overline{C_L^2}}}}
+\newcommand{\epseudo}{\ensuremath{ \epsilon-\text{pseudospectro}}}
+\newcommand{\lra}{\ensuremath{\longrightarrow}}
+
+\newcommand{\wt}[1]{\ensuremath{\widetilde{#1}}}
+\newcommand{\mcal}[1]{\ensuremath{\mathcal{#1}}}
+
+\newcommand{\ol}[1]{\ensuremath{\overline{#1}}}
+\newcommand{\us}{\ensuremath{u_*}}
+
+\newcommand{\p}[1]{\ensuremath{ \mathbf{#1}}}    % \pr vem de preto
+\newcommand{\qrq}{\ensuremath{\quad\lra\quad}}
+\newcommand{\qqrq}{\ensuremath{\qquad\lra\qquad}}
+\newcommand{\pd}{\ensuremath{\partial}}
+\newcommand{\bigO}[1]{\ensuremath{\mathcal{O}\left(#1\right)}}
+
+
+\title{Modelos, Escalas e Semelhança}
+
+
+\author{Paulo Jabardo}
+
+\titlegraphic{\includegraphics[width=4cm]{figuras/logo-ipt.png}}%}
+%   \includegraphics[width=2cm]{fig
+%}
+\date{24-11-2023}
+
+
+
+
+
+\begin{document}
+\maketitle
+\begin{frame}{Análise Dimensional}
+  Agora vamos entrar na Análise Dimensional de verdade
+
+  Mas o que fizemos na aula passada?
+  \begin{itemize}
+  \item Postulamos um modelo matemático - equação diferencial
+  \item Identificamos as escalas do problema
+  \item Usamos estas escalas para comparar os diferentes termos da equação
+  \item De acordo com estimatives, desprezamos alguns termos
+  \item Será que precisamos das equações diferenciais?
+  \end{itemize}
+  NÃO - só comparando estimativas das diferentes contribuições chegamos ao método simplificado.
+
+  Dá para fazer isso de maneira mais abstrata? 
+\end{frame}
+
+\begin{frame}{Escoamento ao redor da esfera}
+  \[
+  F = F(U, D, \rho, \mu)
+  \]
+\begin{itemize}
+\item $F$ - força de arrasto, $N=kg\cdot m/s^2$
+\item $U$ - Velocidade da esfera, $m/s$
+\item $D$ - diâmetro da esfera, $m$
+\item $\rho$ - massa específica do fluido, $kg/m^3$
+\item $\mu$ viscosidade do fluido, $Pa\cdot s = kg/(m\cdot s)$
+\end{itemize}
+
+Será que podemos usar outras unidades?
+
+\end{frame}
+
+\begin{frame}{Mudando o sistema de unidades}
+  Se mudarmos a unidade de comprimento de $m$ para $mm$, multiplicamos o comprimento por um fator $L = 1000$. Os novos valores das grandezas variam de acordo com estas regras:
+  
+\begin{itemize}
+\item $D' \lra L \cdot D$
+\item $U' \lra L \cdot U$
+\item $\rho' \lra  \rho / L^3$
+\item $\mu' \lra \mu / L$
+\item $F' \lra L \cdot F$
+\end{itemize}
+  
+\end{frame}
+
+\begin{frame}{Podemos mudar outras unidades}
+  \begin{itemize}
+  \item Comprimento: L
+  \item Tempo: T
+  \item Massa: M
+  \end{itemize}
+Então no novo sistema de unidades:
+\begin{itemize}
+\item $D' \lra (L) \cdot D$
+\item $U' \lra (L/T) \cdot U$
+\item $\rho' \lra  (M/L^3) \cdot\rho$
+\item $\mu' \lra \{M/(L\cdot T)\}\cdot\mu$
+\item $F' \lra (M \cdot L / T^2) \cdot F$
+\end{itemize}
+  
+\end{frame}
+
+
+
+\begin{frame}{Sistema de unidades específico para \emph{meu problema}}
+  Quero que no novo sistema de unidades, o valor numérico de $D$, $U$, $\rho$ seja $\p{1}$!
+  
+Para o comprimento,
+\[
+L \cdot D = 1 \qrq L = \frac{1}{D}
+\]
+Já para a velocidade,
+\[
+\frac{L}{T} \cdot U = 1 \qrq T = \frac{U}{D}
+\]
+para a densidade,
+\[
+\frac{M}{L^3} \cdot \rho = 1 \qrq M = \frac{1}{\rho D^3}
+\]
+  
+\end{frame}
+
+
+\begin{frame}{Relação funcional no novo sistema de unidades}
+  \[
+\frac{M}{L\cdot T} \cdot \mu = \frac{\mu}{\rho U D} = \frac{1}{Re}
+\]
+\[
+\frac{M\cdot L}{T^2} \cdot F = \frac{F}{\rho D^2 U^2} = C_D
+\]
+
+$1/Re$ é o valor da viscosidade neste novo sistema de unidades e 
+$C_D$ é o valor da força neste novo sistema de unidades onde
+
+$D' = U' = \rho' = 1$
+
+\end{frame}
+
+\begin{frame}{$Re$ e $C_D$ \emph{independem do sistema de unidades}}
+\[
+\begin{aligned}
+Re' = \frac{\rho' U' D'}{\mu'} &=& \frac{\rho (M/L^3) \cdot U (L/T) \cdot D (L) }{\mu M/(L\cdot T)} &=& \frac{\rho U D}{\mu} &=& Re \\
+C_D' = \frac{F'}{\rho' D'^2 U'^2} &=& \frac{F (M\cdot L/T^2)}{\rho (M/L^3) \cdot D^2 (L^2) \cdot U^2 (L^2/T^2)} &=& \frac{F}{\rho D^2 U^2} &=& C_D  \\
+\end{aligned}
+\]
+\end{frame}
+
+\begin{frame}{A relação funcional no novo sistema de unidades}
+  \[
+\frac{F}{\rho D^2 U^2} = F\left(1,1,1, \frac{1}{Re} \right)
+\]
+
+ou seja
+
+\[
+C_D = C_D(Re)
+\]
+
+
+
+\end{frame}
+
+\begin{frame}{Parece mágica né?}
+  Mas nem tanto...
+  \begin{itemize}
+  \item Velocidade: \[U = \frac{L}{t}\]
+  \item Força: \[F = ma = m\frac{dv}{dt}\]
+  \item Densidade \[\rho = \frac{m}{V} = \frac{m}{L^3}\]
+  \item Viscosidade \[\tau = \frac{F}{A} = \frac{F}{L^2} = \mu \frac{U}{L}\]
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Mas e se a física for mais complicada?}
+  Escoamento compressível:
+  \begin{itemize}
+  \item Número de Mach: \[ M = \frac{U}{c} \]
+  \item Coeficiente isoentrópico $\gamma$: \[ p \propto \rho^\gamma \]
+  \end{itemize}
+\end{frame}
+
+\end{document}
+
+\begin{frame}{}
+\end{frame}
+
+\begin{itemize}
+\end{itemize}
