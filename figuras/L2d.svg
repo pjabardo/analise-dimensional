@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2.7a -->
+<!-- CreationDate: 2023-11-15 15:31:19 -->
+<!-- Magnification: 1.05 -->
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="328pt" height="207pt"
+	viewBox="2010 795 5195 3277">
+<g fill="none">
+<!-- Line -->
+<polygon points=" 3150,1800 3150,4050 4950,4050 6300,4050 6300,3150 4950,3150 4950,1800"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 3150,1575 3150,1125"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 4950,1575 4950,1125"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 6300,2925 6300,1125"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 2925,4050 2475,4050"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 2925,1800 2475,1800"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp0">
+	<path clip-rule="evenodd" d="M 2010,795 H 7205 V 4072 H 2010 z
+		M 2730,3914 2670,3914 2693,4057 2707,4057z
+		M 2670,1936 2730,1936 2707,1793 2693,1793z"/>
+</clipPath>
+</defs>
+<polyline points=" 2700,1800 2700,4050" clip-path="url(#cp0)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Forward arrow to point 2700,4050 -->
+<polygon points=" 2670,3914 2700,4034 2730,3914 2670,3914"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8" fill="#000000"/>
+<!-- Backward arrow to point 2700,1800 -->
+<polygon points=" 2730,1936 2700,1816 2670,1936 2730,1936"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8" fill="#000000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp1">
+	<path clip-rule="evenodd" d="M 2010,795 H 7205 V 4072 H 2010 z
+		M 4814,1320 4814,1380 4957,1357 4957,1343z
+		M 3286,1380 3286,1320 3143,1343 3143,1357z"/>
+</clipPath>
+</defs>
+<polyline points=" 3150,1350 4950,1350" clip-path="url(#cp1)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Forward arrow to point 4950,1350 -->
+<polygon points=" 4814,1380 4934,1350 4814,1320 4814,1380"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8" fill="#000000"/>
+<!-- Backward arrow to point 3150,1350 -->
+<polygon points=" 3286,1320 3166,1350 3286,1380 3286,1320"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8" fill="#000000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp2">
+	<path clip-rule="evenodd" d="M 2010,795 H 7205 V 4072 H 2010 z
+		M 6164,1320 6164,1380 6307,1357 6307,1343z
+		M 5086,1380 5086,1320 4943,1343 4943,1357z"/>
+</clipPath>
+</defs>
+<polyline points=" 4950,1350 6300,1350" clip-path="url(#cp2)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Forward arrow to point 6300,1350 -->
+<polygon points=" 6164,1380 6284,1350 6164,1320 6164,1380"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8" fill="#000000"/>
+<!-- Backward arrow to point 4950,1350 -->
+<polygon points=" 5086,1320 4966,1350 5086,1380 5086,1320"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8" fill="#000000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp3">
+	<path clip-rule="evenodd" d="M 2010,795 H 7205 V 4072 H 2010 z
+		M 6780,3914 6720,3914 6743,4057 6757,4057z
+		M 6720,3286 6780,3286 6757,3143 6743,3143z"/>
+</clipPath>
+</defs>
+<polyline points=" 6750,3150 6750,4050" clip-path="url(#cp3)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Forward arrow to point 6750,4050 -->
+<polygon points=" 6720,3914 6750,4034 6780,3914 6720,3914"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8" fill="#000000"/>
+<!-- Backward arrow to point 6750,3150 -->
+<polygon points=" 6780,3286 6750,3166 6720,3286 6780,3286"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8" fill="#000000"/>
+<!-- Line -->
+<polyline points=" 6525,3150 6975,3150"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 6525,4050 6975,4050"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Text -->
+<text xml:space="preserve" x="6975" y="3825" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="288" text-anchor="start">c</text>
+<!-- Text -->
+<text xml:space="preserve" x="2025" y="3150" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="288" text-anchor="start">a</text>
+<!-- Text -->
+<text xml:space="preserve" x="3825" y="1125" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="288" text-anchor="start">b</text>
+<!-- Text -->
+<text xml:space="preserve" x="5625" y="1125" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="288" text-anchor="start">d</text>
+</g>
+</svg>

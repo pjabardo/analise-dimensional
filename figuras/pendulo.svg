@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2.7a -->
+<!-- CreationDate: 2023-11-15 15:32:56 -->
+<!-- Magnification: 1.05 -->
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="232pt" height="257pt"
+	viewBox="6267 2463 3669 4077">
+<g fill="none">
+<!-- Circle -->
+<circle cx="7650" cy="5850" r="225" fill="#000000"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 7650,5850 6300,2700"
+	stroke="#000000" stroke-width="30px"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp0">
+	<path clip-rule="evenodd" d="M 6267,2463 H 9936 V 6540 H 6267 z
+		M 9480,5713 9450,5833 9420,5713 9443,5857 9457,5857z"/>
+</clipPath>
+</defs>
+<polyline points=" 9450,3150 9450,5850" clip-path="url(#cp0)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Forward arrow to point 9450,5850 -->
+<polyline points=" 9480,5713 9450,5833 9420,5713"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Line -->
+<polyline points=" 6300,2475 6300,6300"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 6300,4050 6301,4050 6305,4050 6314,4049 6330,4049 6351,4047 6374,4046 6398,4044
+ 6421,4041 6442,4038 6462,4034 6479,4030 6495,4025 6510,4019 6525,4013 6538,4006
+ 6551,3998 6565,3989 6579,3978 6595,3965 6613,3951 6632,3935 6652,3917 6673,3897
+ 6694,3878 6713,3860 6729,3845 6740,3835 6747,3828 6750,3825"
+	stroke="#000000" stroke-width="8px" stroke-linejoin="bevel"/>
+<!-- Text -->
+<text xml:space="preserve" x="6525" y="4725" fill="#000000" font-family="Times,Symbol" font-style="normal" font-weight="normal" font-size="288" text-anchor="start">&#952;</text>
+<!-- Text -->
+<text xml:space="preserve" x="7650" y="6525" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="288" text-anchor="start">m</text>
+<!-- Text -->
+<text xml:space="preserve" x="9675" y="5625" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="288" text-anchor="start">g</text>
+<!-- Text -->
+<text xml:space="preserve" x="7200" y="4050" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="288" text-anchor="start">L</text>
+</g>
+</svg>

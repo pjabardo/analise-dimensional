@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="672"
+   height="288"
+   viewBox="0 0 672 288"
+   sodipodi:docname="pitagoras.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.171131"
+     inkscape:cx="335.76971"
+     inkscape:cy="144.1645"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10">
+    <inkscape:page
+       x="0"
+       y="0"
+       id="page8"
+       width="672"
+       height="288" />
+  </sodipodi:namedview>
+  <g
+     id="g10"
+     inkscape:groupmode="layer"
+     inkscape:label="Page 1"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,288)">
+    <g
+       id="g12" />
+    <g
+       id="g14">
+      <path
+         d="M 78.48,42.7 H 425.52 L 338.76,192.97 78.48,42.7"
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path16" />
+      <path
+         d="M 338.76,192.97 V 42.7"
+         style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path18" />
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,245.33,21.14)"
+         style="font-variant:normal;font-weight:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text22"><tspan
+           x="0"
+           y="0"
+           id="tspan20">a</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,201.95,128.51)"
+         style="font-variant:normal;font-weight:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text26"><tspan
+           x="0"
+           y="0"
+           id="tspan24">b</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,389.34,112.09)"
+         style="font-variant:normal;font-weight:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text30"><tspan
+           x="0"
+           y="0"
+           id="tspan28">c</tspan></text>
+      <path
+         d="m 113.19,42.7 -0.05,1.82 -0.14,1.81 -0.24,1.8 -0.33,1.79 -0.43,1.77 -0.51,1.74 -0.61,1.71 -0.69,1.68 -0.79,1.64 -0.86,1.59"
+         style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path32" />
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,119.2,50.19)"
+         style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Symbol;-inkscape-font-specification:Symbol;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text36"><tspan
+           x="0"
+           y="0"
+           id="tspan34">φ</tspan></text>
+      <path
+         d="m 338.76,158.27 1.81,0.05 1.82,0.14 1.8,0.24 1.78,0.33 1.77,0.42 1.74,0.52 1.71,0.6 1.68,0.7 1.64,0.78 1.6,0.87"
+         style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path38" />
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,343.05,142.83)"
+         style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Symbol;-inkscape-font-specification:Symbol;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text42"><tspan
+           x="0"
+           y="0"
+           id="tspan40">φ</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,239.27,86.5)"
+         style="font-variant:normal;font-weight:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text46"><tspan
+           x="0"
+           y="0"
+           id="tspan44">A</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,255.28,82.11)"
+         style="font-variant:normal;font-weight:normal;font-size:17px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text50"><tspan
+           x="0"
+           y="0"
+           id="tspan48">b</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,358.42,88.08)"
+         style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text54"><tspan
+           x="0"
+           y="0"
+           id="tspan52">A</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,370.43,84.78)"
+         style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text58"><tspan
+           x="0"
+           y="0"
+           id="tspan56">c</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,236.16,185.11)"
+         style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text62"><tspan
+           x="0"
+           y="0"
+           id="tspan60">A</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,256.17,179.61)"
+         style="font-variant:normal;font-weight:normal;font-size:21px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text66"><tspan
+           x="0"
+           y="0"
+           id="tspan64">a</tspan></text>
+    </g>
+  </g>
+</svg>

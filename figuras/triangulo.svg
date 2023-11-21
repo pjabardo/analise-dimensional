@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2.7a -->
+<!-- CreationDate: 2023-11-15 15:44:28 -->
+<!-- Magnification: 1.05 -->
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="168pt" height="118pt"
+	viewBox="1092 -933 2667 1866">
+<g fill="none">
+<!-- Line -->
+<polyline points=" 2925,-900 3375,-900"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 2925,900 3375,900"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp0">
+	<path clip-rule="evenodd" d="M 1092,-933 H 3759 V 933 H 1092 z
+		M 3180,763 3150,883 3120,763 3143,907 3157,907z
+		M 3120,-763 3150,-883 3180,-763 3157,-907 3143,-907z"/>
+</clipPath>
+</defs>
+<polyline points=" 3150,-900 3150,900" clip-path="url(#cp0)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Forward arrow to point 3150,900 -->
+<polyline points=" 3180,763 3150,883 3120,763"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Backward arrow to point 3150,-900 -->
+<polyline points=" 3120,-763 3150,-883 3180,-763"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Line -->
+<polygon points=" 2700,-900 1125,0 2700,900"
+	stroke="#000000" stroke-width="30px"/>
+<!-- Text -->
+<text xml:space="preserve" x="3375" y="225" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="432" text-anchor="start">L</text>
+</g>
+</svg>

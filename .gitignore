@@ -1,0 +1,14 @@
+syntax: glob
+*~
+*.aux
+*.toc
+*.log
+*.bbl
+*.blg
+*.brf
+*.bak
+*.nav
+*.out
+*.snm
+0?-*.pdf
+videos
