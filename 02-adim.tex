@@ -225,6 +225,362 @@ C_D = C_D(Re)
   \end{itemize}
 \end{frame}
 
+
+\begin{frame}{Unidades}
+  Usamos unidades sem pensar muito
+  \begin{itemize}
+  \item metro
+  \item segundo
+  \item kilograma
+  \item Nós
+  \item $km/h$
+  \item Newtons
+  \item $kg\cdot m /s^2$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Unidades simples e derivadas}
+\begin{itemize}
+\item $m$, $s$, $kg$, $A$, $K$ - Unidades simples
+\item $km/h$, $kg/m^3$, $W/mK$, $N$ - Unidades compostas
+\end{itemize}
+
+As unidades compostas são formadas a partir de leis físicas combinando
+unidades simples:
+\begin{itemize}
+\item $U = L/t$
+\item $F=ma$
+\item $\rho = m/L^3$
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Esta distinção não é tão clara quanto parece: metro}
+  Definições do metro
+  \begin{itemize}
+  \item 1791: $1/10.000.000$ da distância do equador ao polo Norte
+  \item 1799: Comprimento de uma barra guardada em algum lugar
+  \item 1889: Uma nova barra
+  \item 1960: Certo número de comprimentos de onda de uma linha de emissão Kr-86
+  \item 1983: Distância que a luz viaja no vácuo durante $1/299.792.458$ segundos
+  \item 2019: Mesma coisa mas a definição do segundo mudou
+  \end{itemize}
+\vspace{0.5cm}
+  Não seria o metro uma unidade derivada a partir de 1983???
+   
+\end{frame}
+
+\begin{frame}{Outro exemplo: Força}
+  No SI, o Newton é derivado usando a segunda lei da Newton $F=ma$.
+
+  Mas pega um livro em unidades inglesas:
+  \[
+  F = \frac{m\cdot a}{g_c}
+  \]
+  O que é esse $g_c$???
+  \vspace{0.5cm}
+  
+  A força também pode ser definida a partir da gravitação universal:
+  \[
+  F = G\frac{m_1\cdot m_2}{r^2}
+  \]
+  Por quê não usar esta relação?
+  
+\end{frame}
+
+\begin{frame}{Sistema SI}
+  \begin{itemize}
+  \item Tentativa de facilitar e racionalizar
+  \item Hoje não depende de nenhum objeto físico
+  \item Usa princípios físicos estabelecidos
+  \item A medida que nossa compreensão da física melhora, as definições das unidade podem mudar (e mudaram várias vezes)
+  \item Conveniência, confiabilidade e incerteza baixa
+  \item Unidades de base e derivadas
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Dimensão de uma grandeza}
+  \begin{itemize}
+    \item Regra de como o valor \emph{numérico} de uma grandeza muda ao se mudar as unidades de base.
+    \item Comprimento: unidade reduz por um fator $L$ o valor numérico da grandeza multiplica por $L$
+    \item Velocidade: comprimento(L) / tempo(T), valor numérico da grandeza: multiplica por $L/T$
+    \item Nossa notação de unidade representa isso de  forma simbólica
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Dimensão: notação de Maxwell}
+    
+  Unidades base variam por fatores $L$, $T$, $M$, etc
+
+  As grandezas numéricas variam de acordo com as regras
+  \[
+  L^a \cdot T^b \cdot M^c\cdot\ldots
+  \]
+
+  Força (F): unidade derivada. Em SI a  $N\equiv kg\cdot m / s^2$. Notação de Maxwell:
+  \[
+  [F] = \frac{M \cdot L}{T^2}
+  \]
+  
+\end{frame}
+
+
+\begin{frame}{Classes de sistemas de unidades}
+  O SI é definido para ser o mais geral possível e conveniente:
+  \begin{itemize}
+  \item Qualquer problema conhecido pode ser representado (quando isso não acontece: Nobel...)
+  \item Existe redundância: temperatura
+  \end{itemize}
+
+  Mas e problemas específicos?
+  \begin{itemize}
+  \item Mecânica: comprimento, massa, tempo $LMT$
+  \item Pode ser conveniente trabalha com $LFT$
+  \item Estática: $LF$
+  \item Calor: $QM\Theta$ (Flogiston...)
+  \item Você usa o que for mais conveniente para o teu problema!!!
+  \end{itemize}
+
+  \[
+    [u] = \phi(L,M,T,\ldots)
+    \]
+    
+  
+\end{frame}
+
+\begin{frame}{Porque as dimensões são sempre um monômio?}
+  \[
+  [u] = \phi(L,M,T,\ldots) = L^\alpha\cdot M^\beta\cdot T^\gamma\ldots
+  \]
+
+  Por quê temos unidades da forma
+  \[
+  \frac{kg\cdot m}{s^2}
+  \]
+  e não
+  \[
+  kg + m^2 - s^3
+  \]
+  ?????
+
+  \emph{TODOS OS SISTEMAS DE UNIDADE SÃO EQUIVALENTES!!!}
+\end{frame}
+
+\begin{frame}{Seja uma grandeza $u$}
+  \[
+[u] = \phi\left( L, M, T, \ldots\right)
+\]
+Mudando as unidades para sistema 1, o valor de $u$ será
+\[
+u_1 = u\cdot\phi\left(L_1, M_1, T_1, \ldots\right)
+\]
+No sistema 2:
+\[
+u_2 = u\cdot\phi\left(L_2, M_2, T_2, \ldots\right)
+\]
+
+Dividindo $u_2/u_1$
+\[
+\frac{u_2}{u_1} = \frac{ \phi\left(L_2, M_2, T_2, \ldots\right) }{ \phi\left(L_1, M_1, T_1, \ldots\right) }
+\]
+
+  
+\end{frame}
+
+\begin{frame}{Mas TODOS os sistemas são equivalentes!}
+  Considerando o sistema 1 como sistema de unidades original:
+  \[
+  u_2 = u_1\phi\left(\frac{L_2}{L_1}, \frac{M_2}{M_1}, \frac{T_2}{T_1}, \ldots \right)
+\]
+ou seja
+\[
+\frac{ \phi\left(L_2, M_2, T_2, \ldots\right) }{ \phi\left(L_1, M_1, T_1, \ldots\right) } = \phi\left(\frac{L_2}{L_1}, \frac{M_2}{M_1}, \frac{T_2}{T_1}, \ldots \right)
+\]
+\end{frame}
+
+
+\begin{frame}{Derivando em relação a $L_2$ e fazendoo $L_2=L_1=L$}
+  \[
+\frac{\partial_L\phi(L,M,T)}{\phi(L,M,T)} =  \frac{1}{L}\partial_L\phi(1,1,1) = \frac{\alpha}{L} 
+\]
+ou seja
+\[
+\phi(L,M,T) = L^\alpha C_1(M,T)
+\]
+repetindo com $C_1(M,T)$
+\[
+C_1 = M^\beta C_2(T) \qrq C_2 = C_3T^\gamma\qrq \phi = C_3 L^\alpha M^\beta T^\gamma
+\]
+
+\[
+C_3 = 1\qrq \phi = L^\alpha M^\beta T^\gamma
+\]
+\end{frame}
+
+\begin{frame}{Grandezas dependentes e independentes}
+  Escoamento incompressível ao redor da esfera:
+  \begin{itemize}
+  \item Classe $LMT$
+  \item Parâmetros: $D$, $U$, $\rho$, $\mu$ e $F$
+  \item $[D] = L = L^1 \cdot M^0\cdot T^0$
+  \item $[U] = L/T = L^1\cdot M^0 \cdot T^{-1}$
+  \item $[\rho] = M/L^3 = L^{-3}\cdot M^1\cdot T^0$
+  \item $[\mu] = M/(LT) = L^{-1}\cdot M^1\cdot T^{-1}$
+  \item $[F] = ML/T^2$
+  \end{itemize}
+  \vspace{0.5cm}
+  5 parâmetros e 3 dimensões na classe.
+
+  $U$ e $D$ são independentes:
+  \[
+    [U]^x[D]^y = 1 \lra \frac{L^x}{T^x} L^y = 1\lra y=0, x=0
+    \]
+    
+  
+\end{frame}
+
+\begin{frame}{$U$, $D$ e $\rho$ são independentes}
+  \[
+    [U]^x [D]^y [\rho]^z = 1 \lra \frac{L^x}{T^x} \cdot L^y \cdot \frac{M^z}{L^{3z}}
+    \]
+    ou seja
+\[
+\begin{aligned}
+  x + y - 3z &= 0\\
+  -x &= 0\\
+  z &= 0\\
+\end{aligned}
+\]
+Única solução: $x=y=z=0$
+   
+\end{frame}
+
+\begin{frame}{$\mu$ e $F$ são dependentes}
+  \[
+    [U]^x [D]^y [\rho]^z [\mu]^w= 1 \lra \frac{L^x}{T^x} \cdot L^y \cdot \frac{M^z}{L^{3z}}\cdot \frac{M^w}{L^w\cdot T^w} = 1
+    \]
+
+    \[
+\begin{aligned}
+  x + y - 3z  &= w\\
+  -x &= w\\
+  z &= -w\\
+\end{aligned}
+\]
+Admitindo $w=1$,
+\[
+w=1, x=-1, y=-1, z=-1
+\]
+
+\[
+  [\mu] = [\rho][U][D] \qrq \frac{[\rho][U][D]}{[\mu]} \equiv 1
+  \]
+  
+
+\end{frame}
+
+\begin{frame}{Teorema dos $\Pi$s de Buckingham}
+  \[
+  a = f\left(a_1, a_2, \ldots, a_K, b_1, b_2, \ldots, b_N\right)
+  \]
+  
+\begin{itemize}
+\item $a_1$, \ldots, $a_K$ são grandezas com dimensões independentes
+\item $b_1, \ldots, b_N$ são grandezas com dimensões dependentes
+\item $a$ também tem grandeza dependente
+\end{itemize}
+
+\[
+\begin{aligned}
+  \left[a\right]  &= [a_1]^{\alpha}[a_2]^{\beta} \cdots [a_K]^{\gamma}\\
+  \left[b_1\right] &= [a_1]^{\alpha_1}[a_2]^{\beta_1} \cdots [a_K]^{\gamma_1}\\
+  \left[b_2\right] &= [a_1]^{\alpha_2}[a_2]^{\beta_2} \cdots [a_K]^{\gamma_2}\\
+  \cdots &\\
+  \left[b_N\right] &= [a_1]^{\alpha_N}[a_2]^{\beta_N} \cdots [a_K]^{\gamma_N}\\
+\end{aligned}
+\]
+
+
+\end{frame}
+
+\begin{frame}{Teorema dos $\Pi$s de Buckingham}
+  Calculamos $\alpha$, $\beta$, \ldots, $\gamma$, $\alpha_1$, $\beta_1$, \ldots, $\gamma_1$ , \ldots $\alpha_N$, $\beta_N$, \ldots, $\gamma_N$
+  
+  As grandezas
+  \[
+\begin{aligned}
+\Pi = \frac{a}{a_1^\alpha a_2^\beta\cdots a_K^\gamma}, \quad
+&\Pi_1 = \frac{b_1}{a_1^{\alpha_1} a_2^{\beta_1}\cdots a_K^{\gamma_1}},\\
+\Pi_2 = \frac{b_2}{a_1^{\alpha_2} a_2^{\beta_2}\cdots a_K^{\gamma_2}},&\ldots
+\Pi_N = \frac{b_N}{a_1^{\alpha_N} a_2^{\beta_N}\cdots a_K^{\gamma_N}}\\
+\end{aligned}
+\]
+\emph{Têm dimensão 1}
+
+\end{frame}
+
+
+\begin{frame}{Teorema dos $\Pi$s de Buckingham}
+  Equação original:
+
+
+
+\begin{multline*}
+\Pi \cdot \left(a_1^\alpha a_2^\beta\cdots a_K^\gamma\right) =
+f\left( a_1, a_2, \ldots, a_K,
+\Pi_1 \cdot a_1^{\alpha_1} a_2^{\beta_1}\cdots a_K^{\gamma_1}, \right.\\
+\left.\Pi_2 \cdot a_1^{\alpha_2} a_2^{\beta_2}\cdots a_K^{\gamma_2}, 
+\ldots, \Pi_N \cdot a_1^{\alpha_N} a_2^{\beta_N}\cdots a_K^{\gamma_N}\right)
+\end{multline*}
+ou seja
+\[
+\Pi = \mathcal{F}\left(a_1, a_2, \ldots, a_K, \Pi_1, \Pi_2, \ldots, \Pi_N \right)
+\]
+mas escolhendo um sistema de unidades onde, numericamente $a_1=a_2=\cdots=a_K=1$:
+\[
+\Pi = \Pi\left(\Pi_1, \Pi_2, \ldots, \Pi_N \right)
+\]
+
+
+\end{frame}
+
+\begin{frame}{Semelhança}
+
+  No modelo,
+\[
+\left(\Pi\right)_m = \Pi\left\{\left(\Pi_1\right)_m, \left(\Pi_2\right)_m, \ldots, \left(\Pi_N\right)_m \right\}
+\]
+No protótipo
+\[
+\left(\Pi\right)_p = \Pi\left\{\left(\Pi_1\right)_p, \left(\Pi_2\right)_p, \ldots, \left(\Pi_N\right)_p \right\}
+\]
+Caso,
+\[
+\left(\Pi_1\right)_p = \left(\Pi_1\right)_m, \: \left(\Pi_2\right)_p = \left(\Pi_2\right)_m, \: \ldots, \: \left(\Pi_N\right)_p = \left(\Pi_N\right)_m
+\]
+Então
+\[
+\left(\Pi\right)_p = \left(\Pi\right)_m
+\]
+
+\end{frame}
+
+\begin{frame}{Simplificação}
+  Relação adimensional:
+  \[
+\Pi = \Pi\left(\Pi_1, \ldots \Pi_i, \ldots, \Pi_N \right)
+\]
+
+Se 
+
+\[
+\lim_{\Pi_i\to\infty} \Pi\left(\Pi_1, \ldots \Pi_i, \ldots, \Pi_N \right) = \Pi\left(\Pi_1, \ldots \Pi_{i-1},\Pi_{i+1} \ldots, \Pi_N \right) = const
+\]
+Podemos simplificar o problema!
+
+\end{frame}
+
+
 \end{document}
 
 \begin{frame}{}
