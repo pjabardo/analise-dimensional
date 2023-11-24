@@ -11,4 +11,5 @@ syntax: glob
 *.out
 *.snm
 0?-*.pdf
+0??-*.pdf
 videos
