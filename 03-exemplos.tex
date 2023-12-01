@@ -224,7 +224,44 @@
   
 \end{frame}
 
+\begin{frame}{Vazão em um vertedouro}
+  \centering
+  \includegraphics[width=0.75\textwidth]{./figuras/vertedouro.png}
+\end{frame}
 
+\begin{frame}{Vertedouro: parâmetros e dimensões}
+  \[
+  Q = f(g,h,\alpha)
+  \]
+  \begin{itemize}
+  \item $[Q] = L^3/T$, Vazão de fluido
+  \item $[g] = L/T^2$, aceleração da gravidade
+  \item $[h] = L$, nível da água
+  \item $[\alpha] = 1$, ângulo do ``V''
+  \end{itemize}
+
+  E a viscosidade?
+\end{frame}
+
+\begin{frame}{Vertedouro}
+  \[
+  \begin{aligned}
+    \Pi_1 &= \alpha\\
+    \Pi_2 &= \frac{Q}{g^{1/2}\cdot h^{5/2}}\\
+    \Pi_2 &= C(\Pi_1) = C(\alpha)\\
+  \end{aligned}
+  \]
+
+  \[
+  Q = C(\alpha)\cdot \sqrt{g} \cdot h^{5/2}
+  \]
+  Norma ISO-1438:2008, equação de Kindsvater-Shen:
+  \[
+  Q = C_d\frac{8}{15}\tan\frac{\alpha}{2}\sqrt{2g}h^{5/2} \qquad C_d = f\left(\frac{h}{p}, \frac{p}{B}, \alpha\right)
+  \]
+  
+  
+\end{frame}
 
 \begin{frame}{Gradiente de pressão em tubulação}
   \[
